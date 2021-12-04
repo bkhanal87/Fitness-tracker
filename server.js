@@ -14,12 +14,13 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/immense-crag-47322", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
-    useFindAndModify: false
-});
+ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workouts', {
+    //   useMongoClient: true,
+    //   useNewUrlParser: true,
+    //   useUnifiedTopology: true,
+    //   useCreateIndex: true,
+    //   useFindAndModify: false
+  });
 
 app.use(require("./routes/htmlRoutes"));
 app.use(require("./routes/apiRoutes"));
