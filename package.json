@@ -5,5 +5,24 @@
     "mongodb": "^4.2.0",
     "mongoose": "^6.0.14",
     "morgan": "^1.10.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "script": "node seed.js"
+  },
+  "name": "fitness-tracker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkhanal87/Fitness-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkhanal87/Fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/bkhanal87/Fitness-tracker#readme"
 }

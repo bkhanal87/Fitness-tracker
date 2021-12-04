@@ -14,11 +14,11 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
- mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/dry-headland-39755', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  useCreateIndex: true,
-  useFindAndModify: false
+ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/immense-crag-47322', {
+  // useNewUrlParser: true,
+  // useUnifiedTopology: true,
+  // useCreateIndex: true,
+  // useFindAndModify: false
 
   });
 
